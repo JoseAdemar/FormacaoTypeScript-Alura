@@ -18,10 +18,10 @@ export class Negociacao {
     }
 
     get quantidade(){
-        return this.#valor;
+        return this.#quantidade;
     }
 
     get volume(){
-        this.#quantidade * this.#valor;
+       return  this.#quantidade * this.#valor;
     }
 }
