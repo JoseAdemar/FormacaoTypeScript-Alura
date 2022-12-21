@@ -1,0 +1,4 @@
+
+ Aplicação: npm run start
+
+ Servidor de API: json-server --watch db.json

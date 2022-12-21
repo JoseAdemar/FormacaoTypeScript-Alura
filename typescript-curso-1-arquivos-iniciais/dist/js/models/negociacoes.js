@@ -1,10 +1,6 @@
-export class Negociacaoes {
+export class Negociacoes {
     constructor() {
         this.negociacoes = [];
-        // Utilizando o spread operation
-        //lista(): Array<Negociacao>{
-        // return [...this.negociacoes];
-        //}
     }
     adiciona(negociacao) {
         this.negociacoes.push(negociacao);
